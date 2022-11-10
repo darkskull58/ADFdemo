@@ -19,7 +19,7 @@
 						"type": "ExcelSource",
 						"storeSettings": {
 							"type": "AzureBlobStorageReadSettings",
-							"fileListPath": "newcontainer/SampleCSV.csv",
+							"recursive": true,
 							"enablePartitionDiscovery": false
 						}
 					},
@@ -28,7 +28,10 @@
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
-					"enableStaging": false
+					"enableStaging": false,
+					"translator": {
+						"type": "TabularTranslator"
+					}
 				},
 				"inputs": [
 					{
