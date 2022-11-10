@@ -8,11 +8,13 @@
 		"annotations": [],
 		"type": "Excel",
 		"typeProperties": {
+			"sheetName": "SampleCSV",
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "SampleCSV.csv",
 				"container": "newcontainer"
-			}
+			},
+			"firstRowAsHeader": false
 		},
 		"schema": []
 	}
