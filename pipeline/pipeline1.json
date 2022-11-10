@@ -46,6 +46,7 @@
 						"mappings": [
 							{
 								"source": {
+									"type": "Int16",
 									"ordinal": 1
 								}
 							}
