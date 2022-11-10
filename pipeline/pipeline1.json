@@ -28,10 +28,7 @@
 						"writeBehavior": "insert",
 						"sqlWriterUseTableLock": false
 					},
-					"enableStaging": false,
-					"translator": {
-						"type": "TabularTranslator"
-					}
+					"enableStaging": false
 				},
 				"inputs": [
 					{
